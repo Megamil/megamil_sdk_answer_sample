@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5946394D2AE6F9FD0070A02D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5946394C2AE6F9FD0070A02D /* README.md */; };
+		5946394F2AE6FA0A0070A02D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5946394E2AE6FA0A0070A02D /* Constants.swift */; };
+		594639552AE6FA5F0070A02D /* SDKModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594639542AE6FA5F0070A02D /* SDKModel.swift */; };
 		59608E142AE6E51900291EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59608E132AE6E51900291EF7 /* AppDelegate.swift */; };
 		59608E182AE6E51900291EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59608E172AE6E51900291EF7 /* ViewController.swift */; };
 		59608E1B2AE6E51900291EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59608E192AE6E51900291EF7 /* Main.storyboard */; };
 		59608E1D2AE6E51A00291EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59608E1C2AE6E51A00291EF7 /* Assets.xcassets */; };
 		59608E202AE6E51A00291EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59608E1E2AE6E51A00291EF7 /* LaunchScreen.storyboard */; };
+		837A868661091D79412B8E97 /* Pods_megamil_sdk_answer_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBB97FCD2210F4836D2E7CD /* Pods_megamil_sdk_answer_sample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030E10E5D63DAC0781F5A2EF /* Pods-megamil_sdk_answer_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-megamil_sdk_answer_sample.release.xcconfig"; path = "Target Support Files/Pods-megamil_sdk_answer_sample/Pods-megamil_sdk_answer_sample.release.xcconfig"; sourceTree = "<group>"; };
+		5946394C2AE6F9FD0070A02D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5946394E2AE6FA0A0070A02D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		594639542AE6FA5F0070A02D /* SDKModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKModel.swift; sourceTree = "<group>"; };
 		59608E102AE6E51900291EF7 /* megamil_sdk_answer_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = megamil_sdk_answer_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59608E132AE6E51900291EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		59608E172AE6E51900291EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		59608E1C2AE6E51A00291EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59608E1F2AE6E51A00291EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59608E212AE6E51A00291EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6881DC5B5328C10582AB93AE /* Pods-megamil_sdk_answer_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-megamil_sdk_answer_sample.debug.xcconfig"; path = "Target Support Files/Pods-megamil_sdk_answer_sample/Pods-megamil_sdk_answer_sample.debug.xcconfig"; sourceTree = "<group>"; };
+		BBBB97FCD2210F4836D2E7CD /* Pods_megamil_sdk_answer_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_megamil_sdk_answer_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837A868661091D79412B8E97 /* Pods_megamil_sdk_answer_sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CC2DA183D8900C79B7E3D46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6881DC5B5328C10582AB93AE /* Pods-megamil_sdk_answer_sample.debug.xcconfig */,
+				030E10E5D63DAC0781F5A2EF /* Pods-megamil_sdk_answer_sample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		59608E072AE6E51900291EF7 = {
 			isa = PBXGroup;
 			children = (
 				59608E122AE6E51900291EF7 /* megamil_sdk_answer_sample */,
+				5946394C2AE6F9FD0070A02D /* README.md */,
 				59608E112AE6E51900291EF7 /* Products */,
+				0CC2DA183D8900C79B7E3D46 /* Pods */,
+				C2CE1C732E072B2EBBDCD46C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +77,8 @@
 		59608E122AE6E51900291EF7 /* megamil_sdk_answer_sample */ = {
 			isa = PBXGroup;
 			children = (
+				594639542AE6FA5F0070A02D /* SDKModel.swift */,
+				5946394E2AE6FA0A0070A02D /* Constants.swift */,
 				59608E132AE6E51900291EF7 /* AppDelegate.swift */,
 				59608E172AE6E51900291EF7 /* ViewController.swift */,
 				59608E192AE6E51900291EF7 /* Main.storyboard */,
@@ -64,6 +89,14 @@
 			path = megamil_sdk_answer_sample;
 			sourceTree = "<group>";
 		};
+		C2CE1C732E072B2EBBDCD46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBBB97FCD2210F4836D2E7CD /* Pods_megamil_sdk_answer_sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59608E242AE6E51A00291EF7 /* Build configuration list for PBXNativeTarget "megamil_sdk_answer_sample" */;
 			buildPhases = (
+				0C6DB2DA686BB91925076AEA /* [CP] Check Pods Manifest.lock */,
 				59608E0C2AE6E51900291EF7 /* Sources */,
 				59608E0D2AE6E51900291EF7 /* Frameworks */,
 				59608E0E2AE6E51900291EF7 /* Resources */,
+				293B429D36AACE661BEE0FE9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +159,64 @@
 			files = (
 				59608E202AE6E51A00291EF7 /* LaunchScreen.storyboard in Resources */,
 				59608E1D2AE6E51A00291EF7 /* Assets.xcassets in Resources */,
+				5946394D2AE6F9FD0070A02D /* README.md in Resources */,
 				59608E1B2AE6E51900291EF7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C6DB2DA686BB91925076AEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-megamil_sdk_answer_sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		293B429D36AACE661BEE0FE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-megamil_sdk_answer_sample/Pods-megamil_sdk_answer_sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-megamil_sdk_answer_sample/Pods-megamil_sdk_answer_sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-megamil_sdk_answer_sample/Pods-megamil_sdk_answer_sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		59608E0C2AE6E51900291EF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594639552AE6FA5F0070A02D /* SDKModel.swift in Sources */,
 				59608E182AE6E51900291EF7 /* ViewController.swift in Sources */,
 				59608E142AE6E51900291EF7 /* AppDelegate.swift in Sources */,
+				5946394F2AE6FA0A0070A02D /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +363,14 @@
 		};
 		59608E252AE6E51A00291EF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6881DC5B5328C10582AB93AE /* Pods-megamil_sdk_answer_sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8T5Q694LC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = megamil_sdk_answer_sample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -312,12 +394,14 @@
 		};
 		59608E262AE6E51A00291EF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030E10E5D63DAC0781F5A2EF /* Pods-megamil_sdk_answer_sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = S8T5Q694LC;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = megamil_sdk_answer_sample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
