@@ -5,6 +5,7 @@
 *.log
 *.swp
 .DS_Store
+*.DS_Store
 xcuserdata/
 
 # Dependências geradas

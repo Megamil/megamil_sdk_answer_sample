@@ -58,6 +58,8 @@ flutterMethodChannel?.setMethodCallHandler { (call, result) in
 
 * Para chamar a tela, é possível enviar um objeto para customizar muitas coisas, inclusive abrir a conversa com o histórico de mensagens, sugestões para perguntas exibidas antes da primeira pergunta e outros.
 
+* Antes copie nossa classe, não é necessário alterar nada nela, O único campo obrigatório é o token, copie nosso arquivo aqui: [SDKModel.swift](https://raw.githubusercontent.com/Megamil/megamil_sdk_answer_sample/main/megamil_sdk_answer_sample/SDKModel.swift)
+
 ```
 /// - parameter token: Token para uso do SDK [Obrigatório]
 /// - parameter title: Título que é exibido na tela
