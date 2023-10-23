@@ -1,0 +1,32 @@
+# Arquivos de compilação do Swift
+.build/
+
+# Logs e dados temporários
+*.log
+*.swp
+.DS_Store
+xcuserdata/
+
+# Dependências geradas
+Pods/
+Podfile.lock
+
+# Ferramenta de gerenciamento de pacotes
+Carthage/
+
+# Arquivos gerados por Swift Package Manager
+.swift-package/
+
+# Arquivos de configuração do Swift Package Manager
+Package.resolved
+
+# Configurações do gerenciador de dependências Mint
+Mintfile
+MintDependencies
+
+# Swift Playgrounds
+.playground/
+
+# Arquivos de configuração do Mint
+Mintfile
+
